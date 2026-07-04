@@ -343,10 +343,10 @@ a { color: inherit; text-decoration: none; }
 .hero__title {
   font-family: var(--f-display);
   font-weight: 800;
-  font-stretch: 118%;
-  font-size: clamp(2.6rem, 9vw, 7rem);
+  font-stretch: 105%;
+  font-size: clamp(1.9rem, 8vw, 6.5rem);
   line-height: .98;
-  letter-spacing: -.01em;
+  letter-spacing: -.015em;
   margin-block: 1.4rem .5rem;
   text-transform: uppercase;
 }
