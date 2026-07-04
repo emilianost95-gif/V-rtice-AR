@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ SEO ============ -->
+  <title>VÉRTICE — Ingeniería y Construcción | Construimos el futuro</title>
+  <meta name="description" content="VÉRTICE Ingeniería y Construcción: +450 proyectos entregados con excelencia. Construcción residencial, industrial, obras civiles y arquitectura de alto estándar en Chile.">
+  <meta name="keywords" content="constructora, ingeniería, construcción industrial, obras civiles, arquitectura, Chile">
+  <meta name="author" content="VÉRTICE Ingeniería y Construcción">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://vertice.cl/">
+
+  <!-- ============ Open Graph ============ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="VÉRTICE — Construimos el futuro">
+  <meta property="og:description" content="+450 proyectos entregados con excelencia. Ingeniería y construcción de alto estándar.">
+  <meta property="og:url" content="https://vertice.cl/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80">
+  <meta property="og:locale" content="es_CL">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ============ Schema.org ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GeneralContractor",
+    "name": "VÉRTICE Ingeniería y Construcción",
+    "url": "https://vertice.cl",
+    "logo": "https://vertice.cl/assets/logo.png",
+    "description": "Constructora especializada en proyectos residenciales, industriales y obras civiles.",
+    "telephone": "+56 9 5555 5555",
+    "email": "contacto@vertice.cl",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Apoquindo 4500, Piso 12",
+      "addressLocality": "Santiago",
+      "addressCountry": "CL"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "312"
+    }
+  }
+  </script>
+
+  <!-- ============ Fuentes ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Manrope:wght@300..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- ============ Librerías ============ -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- ============ Estilos propios ============ -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ██████████████████ NAVBAR ██████████████████ -->
+  <header id="navbar" class="nav">
+    <div class="nav__inner mx-auto flex items-center justify-between">
+      <a href="#inicio" class="logo" aria-label="VÉRTICE — inicio">
+        <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path class="logo__path" d="M6 8 L20 34 L34 8" fill="none" stroke-width="4" stroke-linecap="square"/>
+          <path d="M14 8 L20 20 L26 8" fill="none" stroke="#FFC107" stroke-width="4" stroke-linecap="square"/>
+        </svg>
+        <span class="logo__text">VÉRTICE<span class="logo__sub">Ingeniería &amp; Construcción</span></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#contacto" class="btn btn--solid btn--sm">Cotizar</a>
+      </nav>
+
+      <button id="burger" class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menú móvil -->
+  <div id="mobileMenu" class="mmenu" aria-hidden="true">
+    <nav class="mmenu__links" aria-label="Menú móvil">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto" class="btn btn--solid mt-6">Solicitar presupuesto</a>
+    </nav>
+    <p class="mmenu__meta">PL-00 · MENÚ · REV 2026</p>
+  </div>
+
+  <main id="main">
+
+    <!-- ██████████████████ HERO ██████████████████ -->
+    <section id="inicio" class="hero" aria-label="Portada">
+      <div class="hero__media" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=2000&q=80&auto=format&fit=crop"
+             alt="" class="hero__img" fetchpriority="high">
+        <div class="hero__shade"></div>
+        <div class="blueprint-grid"></div>
+        <canvas id="particles" class="hero__particles"></canvas>
+      </div>
+
+      <div class="hero__content container-x">
+        <p class="stamp" data-reveal>PL-01 · PORTADA · ESC 1:1 <span class="stamp__dot"></span> SANTIAGO, CHILE</p>
+
+        <h1 class="hero__title">
+          <span class="line-mask"><span class="line" data-line>CONSTRUIMOS</span></span>
+          <span class="line-mask"><span class="line line--accent" data-line>EL FUTURO<span class="cursor-beam" aria-hidden="true"></span></span></span>
+        </h1>
+
+        <p class="hero__sub" data-reveal>
+          Más de <strong>450 proyectos</strong> entregados con excelencia.
+          Ingeniería de precisión, arquitectura con carácter y una obsesión: cumplir lo que firmamos.
+        </p>
+
+        <div class="hero__cta" data-reveal>
+          <a href="#contacto" class="btn btn--solid" data-magnetic>Solicitar presupuesto</a>
+          <a href="#proyectos" class="btn btn--ghost" data-magnetic>Ver proyectos</a>
+        </div>
+
+        <!-- Línea de cota decorativa (elemento firma) -->
+        <div class="dimension" aria-hidden="true">
+          <span class="dimension__tick"></span>
+          <span class="dimension__line"></span>
+          <span class="dimension__label">25 AÑOS DE OBRA CONTINUA</span>
+          <span class="dimension__line"></span>
+          <span class="dimension__tick"></span>
+        </div>
+      </div>
+
+      <a href="#nosotros" class="scroll-cue" aria-label="Bajar a la siguiente sección">
+        <span class="scroll-cue__track"><span class="scroll-cue__dot"></span></span>
+        <span class="scroll-cue__text">SCROLL</span>
+      </a>
+
+      <span class="reg-mark reg-mark--tl" aria-hidden="true"></span>
+      <span class="reg-mark reg-mark--br" aria-hidden="true"></span>
+    </section>
+
+    <!-- ██████████████████ NOSOTROS ██████████████████ -->
+    <section id="nosotros" class="section" aria-labelledby="t-nosotros">
+      <div class="container-x">
+        <header class="section__head">
+          <p class="stamp" data-reveal>PL-02 · NOSOTROS · ESC 1:100</p>
+          <h2 id="t-nosotros" class="section__title" data-reveal>Precisión de ingeniería,<br><em>oficio de constructor.</em></h2>
+        </header>
+
+        <div class="grid gap-10 lg:grid-cols-2 lg:gap-16 items-start">
+          <!-- Texto + contadores -->
+          <div>
+            <p class="lead" data-reveal>
+              Nacimos en terreno, no en una oficina. Desde 2001 levantamos vivienda, industria e
+              infraestructura pública con un estándar simple: cada entrega debe resistir la
+              inspección más dura — la del tiempo.
+            </p>
+            <p class="lead lead--muted" data-reveal>
+              Hoy integramos BIM, monitoreo IoT de obra y gestión Lean Construction para que
+              cada peso invertido rinda en plazo, seguridad y calidad certificada.
+            </p>
+
+            <div class="counters" data-reveal>
+              <div class="counter">
+                <span class="counter__num" data-count="25">0</span><span class="counter__plus">+</span>
+                <span class="counter__label">Años de experiencia</span>
+              </div>
+              <div class="counter">
+                <span class="counter__num" data-count="450">0</span><span class="counter__plus">+</span>
+                <span class="counter__label">Proyectos realizados</span>
+              </div>
+              <div class="counter">
+                <span class="counter__num" data-count="98">0</span><span class="counter__plus">%</span>
+                <span class="counter__label">Clientes satisfechos</span>
+              </div>
+              <div class="counter">
+                <span class="counter__num" data-count="120">0</span><span class="counter__plus"></span>
+                <span class="counter__label">Profesionales</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline vertical -->
+          <ol class="timeline" aria-label="Historia de la empresa">
+            <li class="timeline__item" data-reveal>
+              <span class="timeline__year">2001</span>
+              <h3 class="timeline__title">Primera obra</h3>
+              <p>Un galpón industrial de 1.200 m² en Quilicura. Tres socios, una retroexcavadora arrendada.</p>
+            </li>
+            <li class="timeline__item" data-reveal>
+              <span class="timeline__year">2008</span>
+              <h3 class="timeline__title">Salto a la vivienda</h3>
+              <p>Primer conjunto habitacional de 220 unidades. Certificación ISO 9001.</p>
+            </li>
+            <li class="timeline__item" data-reveal>
+              <span class="timeline__year">2015</span>
+              <h3 class="timeline__title">División de obras civiles</h3>
+              <p>Puentes, pavimentación y obras hidráulicas para el MOP y municipios.</p>
+            </li>
+            <li class="timeline__item" data-reveal>
+              <span class="timeline__year">2021</span>
+              <h3 class="timeline__title">Construcción 4.0</h3>
+              <p>Adopción de BIM 5D, drones de inspección y sensores IoT en faena.</p>
+            </li>
+            <li class="timeline__item" data-reveal>
+              <span class="timeline__year">2026</span>
+              <h3 class="timeline__title">Hoy</h3>
+              <p>+450 proyectos entregados y una meta: cero accidentes, cero atrasos.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ██████████████████ SERVICIOS ██████████████████ -->
+    <section id="servicios" class="section section--alt" aria-labelledby="t-servicios">
+      <div class="container-x">
+        <header class="section__head">
+          <p class="stamp" data-reveal>PL-03 · SERVICIOS · ESC 1:100</p>
+          <h2 id="t-servicios" class="section__title" data-reveal>Todo el ciclo de la obra,<br><em>bajo un solo contrato.</em></h2>
+        </header>
+
+        <div class="cards grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- Cada tarjeta: icono SVG propio, hover 3D sutil -->
+          <article class="card" data-tilt data-reveal>
+            <svg class="card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40V22L24 10l16 12v18H28V28h-8v12z"/></svg>
+            <h3 class="card__title">Construcción residencial</h3>
+            <p class="card__text">Casas, edificios y condominios con estándar de terminaciones premium.</p>
+            <a href="#contacto" class="card__link">Cotizar <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card" data-tilt data-reveal>
+            <svg class="card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 40V20l10 6v-6l10 6v-6l16 10v10zM30 14l4-8 4 8z"/></svg>
+            <h3 class="card__title">Construcción industrial</h3>
+            <p class="card__text">Galpones, plantas y bodegas de alta exigencia estructural y normativa.</p>
+            <a href="#contacto" class="card__link">Cotizar <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card" data-tilt data-reveal>
+            <svg class="card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 34h40v6H4zm4-6c4-12 12-18 16-18s12 6 16 18h-6c-3-8-7-12-10-12s-7 4-10 12z"/></svg>
+            <h3 class="card__title">Obras civiles</h3>
+            <p class="card__text">Puentes, pavimentos, redes y obras hidráulicas para el sector público y privado.</p>
+            <a href="#contacto" class="card__link">Cotizar <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card" data-tilt data-reveal>
+            <svg class="card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 38l14-14-4-4L6 34zm22-22l6-6 4 4-6 6zM26 14l8 8 8-8-8-8z"/></svg>
+            <h3 class="card__title">Remodelaciones</h3>
+            <p class="card__text">Ampliaciones y renovación integral con mínima interrupción de operación.</p>
+            <a href="#contacto" class="card__link">Cotizar <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card" data-tilt data-reveal>
+            <svg class="card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l18 10v20L24 44 6 34V14zm0 6L12 16v16l12 6 12-6V16z"/></svg>
+            <h3 class="card__title">Arquitectura</h3>
+            <p class="card__text">Diseño con identidad: anteproyecto, permisos y dirección de arte de obra.</p>
+            <a href="#contacto" class="card__link">Cotizar <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card" data-tilt data-reveal>
+            <svg class="card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M22 4h4v8h8l2 8h-8v20h-4V20h-8l2-8h4zM8 40h32v4H8z"/></svg>
+            <h3 class="card__title">Ingeniería</h3>
+            <p class="card__text">Cálculo estructural, mecánica de suelos y especialidades coordinadas en BIM.</p>
+            <a href="#contacto" class="card__link">Cotizar <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card" data-tilt data-reveal>
+            <svg class="card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 36h20l-4-10h10l6 10h8v6H4zM26 8l10 4-2 6-10-4z"/></svg>
+            <h3 class="card__title">Movimiento de tierra</h3>
+            <p class="card__text">Excavaciones masivas, escarpe y compactación con flota propia certificada.</p>
+            <a href="#contacto" class="card__link">Cotizar <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card" data-tilt data-reveal>
+            <svg class="card__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M30 6a12 12 0 00-11 17L6 36l6 6 13-13a12 12 0 0016-16l-7 7-5-5z"/></svg>
+            <h3 class="card__title">Mantenimiento</h3>
+            <p class="card__text">Planes preventivos y correctivos para activos industriales e inmobiliarios.</p>
+            <a href="#contacto" class="card__link">Cotizar <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ██████████████████ PROYECTOS ██████████████████ -->
+    <section id="proyectos" class="section" aria-labelledby="t-proyectos">
+      <div class="container-x">
+        <header class="section__head">
+          <p class="stamp" data-reveal>PL-04 · PROYECTOS · ESC 1:200</p>
+          <h2 id="t-proyectos" class="section__title" data-reveal>Obra construida,<br><em>no promesas renderizadas.</em></h2>
+        </header>
+
+        <div class="filters" role="tablist" aria-label="Filtrar proyectos" data-reveal>
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+          <button class="filter" data-filter="residencial" role="tab" aria-selected="false">Residencial</button>
+          <button class="filter" data-filter="industrial" role="tab" aria-selected="false">Industrial</button>
+          <button class="filter" data-filter="civil" role="tab" aria-selected="false">Obras civiles</button>
+          <button class="filter" data-filter="corporativo" role="tab" aria-selected="false">Corporativo</button>
+        </div>
+
+        <div id="gallery" class="gallery grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <figure class="project" data-cat="corporativo" data-reveal>
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&q=75&auto=format&fit=crop" alt="Torre corporativa Meridian, fachada de cristal" loading="lazy" width="900" height="600">
+            <figcaption class="project__info">
+              <span class="project__cat">CORPORATIVO · 2024</span>
+              <h3 class="project__name">Torre Meridian</h3>
+              <p class="project__spec">28.400 m² · Las Condes</p>
+            </figcaption>
+          </figure>
+
+          <figure class="project" data-cat="residencial" data-reveal>
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=75&auto=format&fit=crop" alt="Casa Roble, vivienda unifamiliar moderna" loading="lazy" width="900" height="600">
+            <figcaption class="project__info">
+              <span class="project__cat">RESIDENCIAL · 2025</span>
+              <h3 class="project__name">Casa Roble</h3>
+              <p class="project__spec">420 m² · Chicureo</p>
+            </figcaption>
+          </figure>
+
+          <figure class="project" data-cat="industrial" data-reveal>
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=900&q=75&auto=format&fit=crop" alt="Planta industrial Andina en operación" loading="lazy" width="900" height="600">
+            <figcaption class="project__info">
+              <span class="project__cat">INDUSTRIAL · 2023</span>
+              <h3 class="project__name">Planta Andina</h3>
+              <p class="project__spec">12.000 m² · Lampa</p>
+            </figcaption>
+          </figure>
+
+          <figure class="project" data-cat="civil" data-reveal>
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=75&auto=format&fit=crop" alt="Obra civil: montaje de estructura de acero" loading="lazy" width="900" height="600">
+            <figcaption class="project__info">
+              <span class="project__cat">OBRAS CIVILES · 2024</span>
+              <h3 class="project__name">Viaducto Costanera</h3>
+              <p class="project__spec">1,8 km · Biobío</p>
+            </figcaption>
+          </figure>
+
+          <figure class="project" data-cat="residencial" data-reveal>
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=75&auto=format&fit=crop" alt="Interior de Edificio Mirador, hall de acceso" loading="lazy" width="900" height="600">
+            <figcaption class="project__info">
+              <span class="project__cat">RESIDENCIAL · 2022</span>
+              <h3 class="project__name">Edificio Mirador</h3>
+              <p class="project__spec">96 deptos · Ñuñoa</p>
+            </figcaption>
+          </figure>
+
+          <figure class="project" data-cat="corporativo" data-reveal>
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=75&auto=format&fit=crop" alt="Centro Nexo, arquitectura corporativa" loading="lazy" width="900" height="600">
+            <figcaption class="project__info">
+              <span class="project__cat">CORPORATIVO · 2025</span>
+              <h3 class="project__name">Centro Nexo</h3>
+              <p class="project__spec">15.600 m² · Providencia</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Vista ampliada del proyecto">
+        <button id="lightboxClose" class="lightbox__close" aria-label="Cerrar">✕</button>
+        <img id="lightboxImg" class="lightbox__img" src="" alt="">
+        <p id="lightboxCaption" class="lightbox__caption"></p>
+      </div>
+    </section>
+
+    <!-- ██████████████████ PROCESO ██████████████████ -->
+    <section id="proceso" class="section section--alt" aria-labelledby="t-proceso">
+      <div class="container-x">
+        <header class="section__head">
+          <p class="stamp" data-reveal>PL-05 · PROCESO · CARTA GANTT</p>
+          <h2 id="t-proceso" class="section__title" data-reveal>Cinco etapas.<br><em>Cero improvisación.</em></h2>
+        </header>
+
+        <ol class="process" aria-label="Proceso de trabajo">
+          <li class="process__step" data-reveal>
+            <span class="process__num">01</span>
+            <svg class="process__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6a10 10 0 110 20 10 10 0 010-20zM8 42c0-8 7-12 16-12s16 4 16 12z"/></svg>
+            <h3>Reunión</h3>
+            <p>Levantamos requerimientos, terreno y presupuesto real.</p>
+          </li>
+          <li class="process__step" data-reveal>
+            <span class="process__num">02</span>
+            <svg class="process__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40V8h6v32zm10-8V8h6v24zm10 4V8h6v28zm10 4V8h6v32z"/></svg>
+            <h3>Diseño</h3>
+            <p>Anteproyecto, arquitectura y modelo BIM coordinado.</p>
+          </li>
+          <li class="process__step" data-reveal>
+            <span class="process__num">03</span>
+            <svg class="process__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 10h36v6H6zm0 11h24v6H6zm0 11h30v6H6z"/></svg>
+            <h3>Planificación</h3>
+            <p>Carta Gantt, permisos, compras y plan de seguridad.</p>
+          </li>
+          <li class="process__step" data-reveal>
+            <span class="process__num">04</span>
+            <svg class="process__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l6 6-4 4 8 8 4-4 6 6-10 10-24-24zM6 42l8-14 8 8-14 8z"/></svg>
+            <h3>Construcción</h3>
+            <p>Ejecución con control de calidad e informes semanales.</p>
+          </li>
+          <li class="process__step" data-reveal>
+            <span class="process__num">05</span>
+            <svg class="process__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l18 8-18 8L6 12zm0 22l12-5v8l-12 6-12-6v-8z"/></svg>
+            <h3>Entrega</h3>
+            <p>Recepción municipal, manuales y garantía post-venta.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ██████████████████ TESTIMONIOS ██████████████████ -->
+    <section id="testimonios" class="section" aria-labelledby="t-testimonios">
+      <div class="container-x">
+        <header class="section__head">
+          <p class="stamp" data-reveal>PL-06 · TESTIMONIOS · ACTA DE RECEPCIÓN</p>
+          <h2 id="t-testimonios" class="section__title" data-reveal>Lo firman<br><em>nuestros mandantes.</em></h2>
+        </header>
+
+        <div class="swiper testimonial-swiper" data-reveal>
+          <div class="swiper-wrapper">
+            <blockquote class="swiper-slide testimonial">
+              <div class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p>“Entregaron la planta 3 semanas antes del plazo y con cero observaciones en la recepción. En 20 años licitando, nunca me había pasado.”</p>
+              <footer class="testimonial__author">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=120&q=70&auto=format&fit=crop" alt="" loading="lazy" width="56" height="56">
+                <div><strong>Rodrigo Fuentes</strong><span>Gerente de Operaciones · Agroindustrial del Sur</span></div>
+              </footer>
+            </blockquote>
+
+            <blockquote class="swiper-slide testimonial">
+              <div class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p>“La casa quedó exactamente como el render. Cada semana recibíamos informe con fotos, avance y gastos. Transparencia total.”</p>
+              <footer class="testimonial__author">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&q=70&auto=format&fit=crop" alt="" loading="lazy" width="56" height="56">
+                <div><strong>Carolina Reyes</strong><span>Propietaria · Casa Roble, Chicureo</span></div>
+              </footer>
+            </blockquote>
+
+            <blockquote class="swiper-slide testimonial">
+              <div class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p>“Coordinaron 14 especialidades en BIM sin un solo conflicto en obra. El ahorro en re-trabajos pagó la ingeniería completa.”</p>
+              <footer class="testimonial__author">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=120&q=70&auto=format&fit=crop" alt="" loading="lazy" width="56" height="56">
+                <div><strong>Andrés Molina</strong><span>Director de Proyectos · Inmobiliaria Cumbre</span></div>
+              </footer>
+            </blockquote>
+
+            <blockquote class="swiper-slide testimonial">
+              <div class="testimonial__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+              <p>“Remodelaron nuestras oficinas sin detener la operación ni un día. Trabajo nocturno impecable y obra limpia cada mañana.”</p>
+              <footer class="testimonial__author">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&q=70&auto=format&fit=crop" alt="" loading="lazy" width="56" height="56">
+                <div><strong>Valentina Soto</strong><span>Gerenta General · Estudio Lira</span></div>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ██████████████████ CLIENTES ██████████████████ -->
+    <section id="clientes" class="clients" aria-label="Clientes que confían en nosotros">
+      <p class="clients__label stamp">CONFÍAN EN VÉRTICE</p>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>AGROSUR</span><span>INMOBILIARIA CUMBRE</span><span>MOP</span><span>ESTUDIO LIRA</span>
+          <span>MINERA ALTIPLANO</span><span>GRUPO PATAGONIA</span><span>PUERTO CENTRAL</span><span>CLÍNICA ANDES</span>
+          <span>AGROSUR</span><span>INMOBILIARIA CUMBRE</span><span>MOP</span><span>ESTUDIO LIRA</span>
+          <span>MINERA ALTIPLANO</span><span>GRUPO PATAGONIA</span><span>PUERTO CENTRAL</span><span>CLÍNICA ANDES</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ██████████████████ EQUIPO ██████████████████ -->
+    <section id="equipo" class="section section--alt" aria-labelledby="t-equipo">
+      <div class="container-x">
+        <header class="section__head">
+          <p class="stamp" data-reveal>PL-07 · EQUIPO · PLANTA PROFESIONAL</p>
+          <h2 id="t-equipo" class="section__title" data-reveal>Las personas<br><em>detrás del hormigón.</em></h2>
+        </header>
+
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="member" data-reveal>
+            <div class="member__photo">
+              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=75&auto=format&fit=crop" alt="Retrato de Ignacio Vergara" loading="lazy" width="600" height="700">
+            </div>
+            <h3 class="member__name">Ignacio Vergara</h3>
+            <p class="member__role">Gerente General · Ing. Civil PUC</p>
+            <div class="member__social">
+              <a href="#" aria-label="LinkedIn de Ignacio Vergara">in</a>
+              <a href="#" aria-label="Correo de Ignacio Vergara">@</a>
+            </div>
+          </article>
+
+          <article class="member" data-reveal>
+            <div class="member__photo">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=75&auto=format&fit=crop" alt="Retrato de Fernanda Aguirre" loading="lazy" width="600" height="700">
+            </div>
+            <h3 class="member__name">Fernanda Aguirre</h3>
+            <p class="member__role">Directora de Arquitectura</p>
+            <div class="member__social">
+              <a href="#" aria-label="LinkedIn de Fernanda Aguirre">in</a>
+              <a href="#" aria-label="Correo de Fernanda Aguirre">@</a>
+            </div>
+          </article>
+
+          <article class="member" data-reveal>
+            <div class="member__photo">
+              <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=75&auto=format&fit=crop" alt="Retrato de Cristóbal Núñez" loading="lazy" width="600" height="700">
+            </div>
+            <h3 class="member__name">Cristóbal Núñez</h3>
+            <p class="member__role">Jefe de Ingeniería Estructural</p>
+            <div class="member__social">
+              <a href="#" aria-label="LinkedIn de Cristóbal Núñez">in</a>
+              <a href="#" aria-label="Correo de Cristóbal Núñez">@</a>
+            </div>
+          </article>
+
+          <article class="member" data-reveal>
+            <div class="member__photo">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&q=75&auto=format&fit=crop" alt="Retrato de Javiera Campos" loading="lazy" width="600" height="700">
+            </div>
+            <h3 class="member__name">Javiera Campos</h3>
+            <p class="member__role">Jefa de Prevención y Calidad</p>
+            <div class="member__social">
+              <a href="#" aria-label="LinkedIn de Javiera Campos">in</a>
+              <a href="#" aria-label="Correo de Javiera Campos">@</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ██████████████████ CONTACTO ██████████████████ -->
+    <section id="contacto" class="section" aria-labelledby="t-contacto">
+      <div class="container-x">
+        <header class="section__head">
+          <p class="stamp" data-reveal>PL-08 · CONTACTO · SOLICITUD DE PROPUESTA</p>
+          <h2 id="t-contacto" class="section__title" data-reveal>Su proyecto empieza<br><em>con una conversación.</em></h2>
+        </header>
+
+        <div class="grid gap-10 lg:grid-cols-2">
+          <!-- Formulario -->
+          <form id="quoteForm" class="form glass" novalidate>
+            <div class="form__row">
+              <div class="field">
+                <label for="fName">Nombre completo *</label>
+                <input id="fName" name="nombre" type="text" autocomplete="name" required minlength="3" placeholder="Ej: María González">
+                <span class="field__error" aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="fPhone">Teléfono *</label>
+                <input id="fPhone" name="telefono" type="tel" autocomplete="tel" required pattern="[+0-9 ()-]{8,}" placeholder="+56 9 1234 5678">
+                <span class="field__error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="field">
+                <label for="fEmail">Correo *</label>
+                <input id="fEmail" name="correo" type="email" autocomplete="email" required placeholder="nombre@empresa.cl">
+                <span class="field__error" aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="fType">Tipo de proyecto *</label>
+                <select id="fType" name="tipo" required>
+                  <option value="" selected disabled>Seleccione…</option>
+                  <option>Residencial</option>
+                  <option>Industrial</option>
+                  <option>Obras civiles</option>
+                  <option>Remodelación</option>
+                  <option>Otro</option>
+                </select>
+                <span class="field__error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="fMsg">Cuéntenos su proyecto *</label>
+              <textarea id="fMsg" name="mensaje" rows="4" required minlength="10" placeholder="Ubicación, superficie aproximada, plazos…"></textarea>
+              <span class="field__error" aria-live="polite"></span>
+            </div>
+
+            <button type="submit" class="btn btn--solid w-full" data-magnetic>Enviar solicitud</button>
+            <p id="formStatus" class="form__status" aria-live="polite"></p>
+          </form>
+
+          <!-- Info + mapa -->
+          <div class="contact-info">
+            <ul class="contact-list">
+              <li>
+                <span class="contact-list__key">DIRECCIÓN</span>
+                <span>Av. Apoquindo 4500, Piso 12 — Las Condes, Santiago</span>
+              </li>
+              <li>
+                <span class="contact-list__key">TELÉFONO</span>
+                <a href="tel:+56955555555">+56 9 5555 5555</a>
+              </li>
+              <li>
+                <span class="contact-list__key">CORREO</span>
+                <a href="mailto:contacto@vertice.cl">contacto@vertice.cl</a>
+              </li>
+              <li>
+                <span class="contact-list__key">HORARIO</span>
+                <span>Lun–Vie 08:30–18:30 · Emergencias 24/7</span>
+              </li>
+            </ul>
+
+            <div class="map glass">
+              <iframe
+                title="Ubicación de VÉRTICE en Google Maps"
+                src="https://www.google.com/maps?q=Av.+Apoquindo+4500,+Las+Condes,+Santiago&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ██████████████████ FOOTER ██████████████████ -->
+  <footer class="footer" aria-label="Pie de página">
+    <div class="container-x footer__grid">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo logo--footer">
+          <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+            <path d="M6 8 L20 34 L34 8" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="square"/>
+            <path d="M14 8 L20 20 L26 8" fill="none" stroke="#FFC107" stroke-width="4" stroke-linecap="square"/>
+          </svg>
+          <span class="logo__text">VÉRTICE</span>
+        </a>
+        <p>Ingeniería y construcción de alto estándar desde 2001. Santiago · Biobío · Ñuble.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Enlaces rápidos">
+        <h4>Enlaces</h4>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <nav class="footer__col" aria-label="Servicios">
+        <h4>Servicios</h4>
+        <a href="#servicios">Construcción residencial</a>
+        <a href="#servicios">Construcción industrial</a>
+        <a href="#servicios">Obras civiles</a>
+        <a href="#servicios">Arquitectura e ingeniería</a>
+      </nav>
+
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <a href="tel:+56955555555">+56 9 5555 5555</a>
+        <a href="mailto:contacto@vertice.cl">contacto@vertice.cl</a>
+        <span>Av. Apoquindo 4500, Santiago</span>
+      </div>
+    </div>
+
+    <div class="footer__bar container-x">
+      <p>© 2026 VÉRTICE Ingeniería y Construcción SpA · Todos los derechos reservados.</p>
+      <p class="footer__rev">PL-09 · PIE DE LÁMINA · REV. 2026-07</p>
+    </div>
+  </footer>
+
+  <!-- Botones flotantes -->
+  <a id="waFloat" class="wa-float" href="#" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.2 7L4 29l7.2-2.1c1.9 1 4 1.6 6.3 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm6.6 17c-.3.8-1.6 1.5-2.3 1.6-.6.1-1.4.2-4-.9-3.4-1.4-5.6-4.9-5.8-5.1-.2-.2-1.4-1.9-1.4-3.6s.9-2.5 1.2-2.9c.3-.3.7-.4.9-.4h.7c.2 0 .5-.1.8.6l1.1 2.7c.1.2.2.5 0 .8l-.5.7c-.2.3-.4.5-.2.9.2.4 1 1.7 2.2 2.7 1.5 1.3 2.8 1.7 3.2 1.9.4.2.6.2.9-.1l1.3-1.5c.3-.4.6-.3.9-.2l2.6 1.2c.4.2.6.3.7.5.1.2.1.9-.3 1.7z"/></svg>
+  </a>
+
+  <button id="toTop" class="to-top" aria-label="Volver arriba">↑</button>
+
+  <!-- ============ Scripts ============ -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
