@@ -372,7 +372,7 @@ const Tilt = (() => {
         card.style.transform = `perspective(700px) rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg) translateY(-4px)`;
       });
       card.addEventListener('mouseleave', () => {
-        card.style.transform = '';
+        card.style.transform = 'none';
       });
     });
   }
