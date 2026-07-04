@@ -343,10 +343,10 @@ a { color: inherit; text-decoration: none; }
 .hero__title {
   font-family: var(--f-display);
   font-weight: 800;
-  font-stretch: 118%;
-  font-size: clamp(2.6rem, 9vw, 7rem);
+  font-stretch: 105%;
+  font-size: clamp(1.9rem, 8vw, 6.5rem);
   line-height: .98;
-  letter-spacing: -.01em;
+  letter-spacing: -.015em;
   margin-block: 1.4rem .5rem;
   text-transform: uppercase;
 }
@@ -355,6 +355,12 @@ a { color: inherit; text-decoration: none; }
   -webkit-clip-path: inset(-0.25em -0.6em 0 -0.15em);
   clip-path: inset(-0.25em -0.6em 0 -0.15em);
   padding-bottom: .08em;
+}
+.line { display: inline-block; transform: translateY(110%); }
+.line--accent {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--amber);
+  position: relative;
 }
 .cursor-beam {
   display: inline-block;
@@ -377,8 +383,16 @@ a { color: inherit; text-decoration: none; }
 .hero__cta { display: flex; flex-wrap: wrap; gap: 1rem; }
 
 /* Indicador de scroll */
-.scroll-cue { display: none; }
- 
+.scroll-cue {
+  position: absolute;
+  bottom: 2.2rem; left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .6rem;
+  z-index: 3;
+}
 .scroll-cue__track {
   width: 24px; height: 40px;
   border: 1.5px solid rgba(244,246,248,.35);
@@ -992,14 +1006,15 @@ a { color: inherit; text-decoration: none; }
   .counters { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (max-width: 767px) {
-  .reg-mark { display: none; }
-  .to-top { right: auto; left: 1.6rem; }
-  .scroll-cue { display: none; }
-  .hero__title {
-    font-size: clamp(2.05rem, 9.6vw, 2.9rem);
-    font-stretch: 100%;
-    letter-spacing: -.02em;
+@media (min-width: 768px) {
+  .process { grid-template-columns: repeat(5, 1fr); }
+  /* Conector horizontal entre pasos */
+  .process__step:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%; right: -1.2rem;
+    width: 1.2rem; height: 1px;
+    background: var(--line);
   }
 }
 
@@ -1011,6 +1026,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 767px) {
   .reg-mark { display: none; }
   .to-top { right: auto; left: 1.6rem; }
+  .scroll-cue { display: none; }
 }
 
 /* ---------- 20. ACCESIBILIDAD: reduce motion ---------- */
