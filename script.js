@@ -369,7 +369,7 @@ const Tilt = (() => {
         const rect = card.getBoundingClientRect();
         const rx = ((e.clientY - rect.top) / rect.height - 0.5) * -6;  // máx 3°
         const ry = ((e.clientX - rect.left) / rect.width - 0.5) * 6;
-        card.style.transform = `perspective(700px) rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg) translateY(-4px)`;
+        card.style.transform = `perspective(700px) rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg)`;
       });
       card.addEventListener('mouseleave', () => {
         card.style.transform = 'none';
