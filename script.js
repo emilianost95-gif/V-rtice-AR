@@ -7,7 +7,7 @@
 
 /* ---------- CONFIGURACIÓN GLOBAL ---------- */
 const CONFIG = {
-  WHATSAPP_NUMBER: '56955555555',          // ← cambiar aquí para todo el sitio
+  WHATSAPP_NUMBER: '56966141460',          // ← cambiar aquí para todo el sitio
   REDUCED_MOTION: window.matchMedia('(prefers-reduced-motion: reduce)').matches,
 };
 
